@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM maven:3.3.9-jdk-8
 ## Based on this example http://stackoverflow.com/a/40612088/865222
 ENV SONAR_SCANNER_VERSION 3.0.3.778
 
